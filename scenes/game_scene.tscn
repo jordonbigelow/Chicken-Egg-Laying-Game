@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://conqhe84q81gj"]
+[gd_scene load_steps=3 format=3 uid="uid://conqhe84q81gj"]
 
 [ext_resource type="PackedScene" uid="uid://ts2avibw1nus" path="res://scenes/chicken.tscn" id="1_7k46i"]
+[ext_resource type="PackedScene" uid="uid://bjqfklmwvk87m" path="res://scenes/basic_egg.tscn" id="2_pvm7h"]
 
 [node name="Game Scene" type="Node2D"]
 
 [node name="Chicken" parent="." instance=ExtResource("1_7k46i")]
+z_index = 1
 position = Vector2(569, 307)
+
+[node name="Basic Egg" parent="." instance=ExtResource("2_pvm7h")]
+position = Vector2(543, 315)
