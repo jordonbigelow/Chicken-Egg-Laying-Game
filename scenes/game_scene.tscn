@@ -8,7 +8,7 @@
 
 [node name="Chicken" parent="." instance=ExtResource("1_7k46i")]
 z_index = 1
-position = Vector2(569, 307)
+position = Vector2(565, 312)
 
 [node name="Basic Egg" parent="." instance=ExtResource("2_pvm7h")]
 position = Vector2(543, 315)
