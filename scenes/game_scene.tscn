@@ -9,7 +9,6 @@
 [node name="Chicken" parent="." instance=ExtResource("1_7k46i")]
 z_index = 1
 position = Vector2(569, 307)
-speed = 9600.0
 
 [node name="Basic Egg" parent="." instance=ExtResource("2_pvm7h")]
 position = Vector2(543, 315)

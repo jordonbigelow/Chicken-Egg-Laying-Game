@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed: float = 9600.0
+@export var speed: float = 250.0
 
 func _physics_process(delta: float) -> void:
 	var direction: Vector2 = Vector2.ZERO
@@ -22,8 +22,6 @@ func _physics_process(delta: float) -> void:
 		$AnimatedSprite2D.play("walk")
 	
 	direction = direction.normalized()
-	velocity = direction * (speed * delta)
-	
-	print(delta)
+	velocity = direction * speed
 	
 	move_and_slide()
