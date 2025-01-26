@@ -9,7 +9,6 @@ radius = 8.0
 [node name="Chicken" type="CharacterBody2D"]
 position = Vector2(0, -8)
 script = ExtResource("1_gqf3p")
-metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_j7h1i")

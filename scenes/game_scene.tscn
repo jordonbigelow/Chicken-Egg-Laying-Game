@@ -8,10 +8,14 @@
 
 [node name="Chicken" parent="." instance=ExtResource("1_7k46i")]
 z_index = 1
-position = Vector2(565, 312)
+position = Vector2(221, 126)
+
+[node name="Camera2D" type="Camera2D" parent="Chicken"]
+position = Vector2(0, 2)
+zoom = Vector2(2, 2)
 
 [node name="Basic Egg" parent="." instance=ExtResource("2_pvm7h")]
-position = Vector2(543, 315)
+position = Vector2(184, 125)
 
 [node name="Larvae" parent="." instance=ExtResource("3_k58q1")]
-position = Vector2(518, 315)
+position = Vector2(146, 125)
