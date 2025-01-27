@@ -13,7 +13,7 @@ position = Vector2(221, 126)
 
 [node name="Camera2D" type="Camera2D" parent="Chicken"]
 position = Vector2(0, 2)
-zoom = Vector2(4, 4)
+zoom = Vector2(3, 3)
 
 [node name="Basic Egg" parent="." instance=ExtResource("2_pvm7h")]
 position = Vector2(184, 125)
