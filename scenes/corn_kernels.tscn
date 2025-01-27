@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://byac7j8g0eqab"]
 
-[ext_resource type="Texture2D" uid="uid://bqggmqv4hn0vr" path="res://assets/corn-kernels.png" id="1_2ipkk"]
+[ext_resource type="Texture2D" uid="uid://cw1nioungqqmf" path="res://assets/corn-kernels.png" id="1_2ipkk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sexi5"]
 size = Vector2(16, 16)

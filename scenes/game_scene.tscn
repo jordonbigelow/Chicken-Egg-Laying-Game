@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://ts2avibw1nus" path="res://scenes/chicken.tscn" id="1_7k46i"]
 [ext_resource type="PackedScene" uid="uid://bjqfklmwvk87m" path="res://scenes/basic_egg.tscn" id="2_pvm7h"]
 [ext_resource type="PackedScene" uid="uid://cin7nlq0p4dac" path="res://scenes/larvae.tscn" id="3_k58q1"]
-[ext_resource type="Texture2D" uid="uid://bqggmqv4hn0vr" path="res://assets/corn-kernels.png" id="4_m3iyk"]
+[ext_resource type="PackedScene" uid="uid://byac7j8g0eqab" path="res://scenes/corn_kernels.tscn" id="4_tffen"]
 
 [node name="Game Scene" type="Node2D"]
 
@@ -21,6 +21,5 @@ position = Vector2(184, 125)
 [node name="Larvae" parent="." instance=ExtResource("3_k58q1")]
 position = Vector2(146, 125)
 
-[node name="Corn-kernels" type="Sprite2D" parent="."]
-position = Vector2(179, 147)
-texture = ExtResource("4_m3iyk")
+[node name="CornKernels" parent="." instance=ExtResource("4_tffen")]
+position = Vector2(201, 128)
